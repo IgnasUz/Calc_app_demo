@@ -16,12 +16,14 @@ namespace ConsoleApp1
 
         static void Main(string[] args)
         {
-            //int a = 257;
-            //byte b = (byte)a;
-            //Console.WriteLine("A is: {0} B is: {1}", a, b);
-            Console.WriteLine("Your currnet output is: " + Calculate(3, 7));
+            //Random calculations
+            Console.WriteLine("Your 1st output is: " + Calculate(3, 7));
 
-            // Go to http://aka.ms/dotnet-get-started-console to continue learning how to build a console app! 
+            Console.WriteLine("Your 2nd output is: " + Calculate(5, 5));
+
+            Console.WriteLine("Your 3rd output is: " + Calculate(10, 10));
+
+
         }
     }
 }
